@@ -1,27 +1,27 @@
-body {
-    background-color: bisque;
-    }
+        body {
+            background-color: bisque;
+            }
 
-    footer {
-        background-color: black;
-        color: white;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        height: 2rem;
-        }
-        
-        footer p {
+        footer {
+            background-color: black;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 2rem;
+            }
+            
+            footer p {
             text-align: center;
             font-size: 0.6rem;
             margin-top: 0.5rem;
             }
-        #container {
+            #container {
             display: flex;
 
         }
 
-        .cartao{
+            .cartao{
             margin: 1rem 1rem;
            background-color: aliceblue;
             height: 20rem;
@@ -31,18 +31,42 @@ body {
         
         }
 
-        .cartao__conteudo {
+            .cartao__p {
+            padding: 4rem;
+            margin-top: 4rem ;
+        }
+
+            .cartao__conteudo {
             text-align: center;
             background-color: rgb(208, 136, 223);
             height: 100%;
             }
 
+            #container {
+            display: flex;
+            flex-wrap: wrap;
+
+
+            }
+
+
             .cartao__conteudo h3 {
+
                 background-color: rgb(252, 255, 254);
                 text-align: left;
                 padding: 0.5rem;
                 position: absolute;
-                margin: 0.6rem;sss
+                margin: 0.6rem;
                 border-radius: 0.6rem;
                 font-size: 1vw;
+            }
+
+            .cartao__conteudo_pergunta p
+            {
+                font-weight: 500;
+
+            }
+            
+            .cartao__conteudo_resposta p {
+                font-weight: 700;
             }
